@@ -3,4 +3,4 @@
 -- Add any additional keymaps here
 
 -- Remap 'jk' to escape in insert mode
--- vim.keymap.set({ "i", "n", "v" }, "jk", "<Esc>", { noremap = true, silent = true })
+vim.keymap.set({ "i", "v" }, "jk", "<Esc>", { noremap = true, silent = true })
